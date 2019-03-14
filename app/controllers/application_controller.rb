@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def hello_world
-    render "static/some_page"
+    render "static/hello_world"
   end
 end
